@@ -2,7 +2,6 @@
 const nextConfig = {
   allowedDevOrigins: ["*.preview.same-app.com"],
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -12,5 +11,4 @@ const nextConfig = {
     ],
   },
 };
-
 module.exports = nextConfig;
